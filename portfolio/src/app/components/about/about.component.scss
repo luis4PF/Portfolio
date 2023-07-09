@@ -1,0 +1,33 @@
+.project {
+    color: white;
+    margin-top: 170px;
+    padding: 20px;
+    border: none;
+    background: RGB(180, 140, 210);
+    border-radius: 20px;
+    height: 300px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.project .wrapper {
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.project .wrapper img {
+    width: 100px;
+    /* Set a specific width */
+    height: 100px;
+    /* Set a specific height */
+
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the entire circle */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* Add a shadow */
+    transition: scale 400ms;
+}
+
+.project .wrapper:hover img {
+    scale: 120%;
+    cursor: pointer;
+}

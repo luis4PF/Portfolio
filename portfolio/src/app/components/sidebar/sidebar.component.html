@@ -1,0 +1,20 @@
+<div class="container-fluid">
+    <div class="row">
+        <div id="sidebar">
+            <ul class="list-unstyled list-group">
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/"
+                    data-project-id="project1"><a data-hover-text="Inicio"><i class="fa-solid fa-home icon"></i></a>
+                </li>
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/about"
+                    data-project-id="project2"><a data-hover-text="Sobre"><i class="fa-solid fa-user icon"></i></a>
+                </li>
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/projects"
+                    data-project-id="project3"><a data-hover-text="Projetos"><i
+                            class="fa-solid fa-suitcase icon"></i></a></li>
+            </ul>
+        </div>
+        <div class="col-md-10" id="main-content">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

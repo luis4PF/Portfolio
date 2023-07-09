@@ -1,0 +1,40 @@
+.project {
+    color: white;
+    margin-top: 170px;
+    padding: 20px;
+    border: none;
+    background: RGB(180, 140, 210);
+    border-radius: 20px;
+    height: 300px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.project h1 {
+    color: purple;
+    margin: 0;
+    font-size: 24px;
+}
+
+.project h3 {
+    font-size: 24px;
+}
+
+.project p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.project .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #D81B60;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.project .button:hover {
+    background-color: #C2185B;
+}
